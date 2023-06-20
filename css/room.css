@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 80%;
+    margin: auto;
+  }
+  
+  header {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin-top: 15px;
+  }
+  
+  img {
+    margin: 10px;
+  }
